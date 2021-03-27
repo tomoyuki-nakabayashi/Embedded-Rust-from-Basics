@@ -1,0 +1,9 @@
+[build]
+target = "thumbv7em-none-eabihf"
+
+[target.thumbv7em-none-eabihf]
+runner = "hf2 elf"
+#runner = "probe-run --chip atsamd51p19a"
+rustflags = [
+  "-C", "link-arg=-Tlink.x", "-C", "link-arg=--nmagic",
+]

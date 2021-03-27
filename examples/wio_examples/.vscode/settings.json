@@ -1,0 +1,4 @@
+{
+    "cortex-debug.openocdPath": "${env:HOME}/openocd-linux/bin/openocd",
+    "cortex-debug.gdbPath": "gdb-multiarch"
+}
