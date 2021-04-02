@@ -1,5 +1,6 @@
 # Embedded-Rust-from-Basics
-基礎から学ぶ 組込みRust (中林智之 井田健太 著 C&amp;R研究所) のサポートサイトです
+
+中林智之、井田健太が執筆した『基礎から学ぶ 組込みRust』 (C&R研究所) のサポートサイトです。
 
 <img src="https://github.com/tomoyuki-nakabayashi/Embedded-Rust-from-Basics/blob/main/book-cover.jpg" width="320">
 
