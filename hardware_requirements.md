@@ -35,6 +35,6 @@
 
 USB シリアルと Wio Terminal とを接続します。10 cm 以上のものを 3 本以上用意して下さい。
 
-・[スイッチサイエンス](https://www.switch-science.com/catalog/57/)
-・[秋月電子通商](https://akizukidenshi.com/catalog/g/gC-05371/)
-・Amazon 「ジャンパワイヤ オスオス」で検索
+- [スイッチサイエンス](https://www.switch-science.com/catalog/57/)
+- [秋月電子通商](https://akizukidenshi.com/catalog/g/gC-05371/)
+- Amazon 「ジャンパワイヤ オスオス」で検索
