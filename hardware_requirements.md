@@ -2,19 +2,21 @@
 
 本書のサンプルコードを実際に動かす上で必要となるハードウェアとその入手先をまとめます。
 
-| 機材名 | 必要個数 |
-| --- | --- |
-| Wio Terminal | 1台 |
-| USB シリアル変換モジュール（3.3V） | 1個 |
-| USB Type-Cケーブル（Wio Terminal本体接続用） | 1本 |
-| ジャンパワイヤ（オスオス） | 3本以上 |
-| microUSBケーブル（USBシリアル変換モジュール接続用） | 1本 |
+| 機材名 | 必要個数 | 補足説明 |
+| --- | --- | --- |
+| Wio Terminal | 1台 |  |
+| USB シリアル変換モジュール（3.3V） | 1個 |  |
+| USB Type-Cケーブル（Wio Terminal本体接続用） | 1本 | Wio Terminalに短いケーブルが添付 |
+| ジャンパワイヤ（オスオス） | 3本以上 |  |
+| microUSBケーブル（USBシリアル変換モジュール接続用） | 1本 |  |
 
 ## Wio Terminal
 
 主な購入先は次の通りで、送料込みで 4,000 円程度で入手できます。
 - [スイッチサイエンス](https://www.switch-science.com/catalog/6360/)
 - [秋月電子通商](https://akizukidenshi.com/catalog/g/gM-15275/)
+- [マルツ](https://www.marutsu.co.jp/pc/i/1633550/)
+- [共立エレショップ](https://eleshop.jp/shop/g/gK5F314/)
 - Amazon 「Wio Terminal」で検索
 
 ## USBシリアル変換モジュール (3.3V)
@@ -35,6 +37,6 @@
 
 USB シリアルと Wio Terminal とを接続します。10 cm 以上のものを 3 本以上用意して下さい。
 
-・[スイッチサイエンス](https://www.switch-science.com/catalog/57/)
-・[秋月電子通商](https://akizukidenshi.com/catalog/g/gC-05371/)
-・Amazon 「ジャンパワイヤ オスオス」で検索
+- [スイッチサイエンス](https://www.switch-science.com/catalog/57/)
+- [秋月電子通商](https://akizukidenshi.com/catalog/g/gC-05371/)
+- Amazon 「ジャンパワイヤ オスオス」で検索
