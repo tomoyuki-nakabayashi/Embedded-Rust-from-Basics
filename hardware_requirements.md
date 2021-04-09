@@ -16,6 +16,7 @@
 - [スイッチサイエンス](https://www.switch-science.com/catalog/6360/)
 - [秋月電子通商](https://akizukidenshi.com/catalog/g/gM-15275/)
 - [マルツ](https://www.marutsu.co.jp/pc/i/1633550/)
+- [共立エレショップ](https://eleshop.jp/shop/g/gK5F314/)
 - Amazon 「Wio Terminal」で検索
 
 ## USBシリアル変換モジュール (3.3V)
