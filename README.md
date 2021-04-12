@@ -24,7 +24,7 @@
 - サンプルアプリテンプレートプロジェクト: https://github.com/tomoyuki-nakabayashi/wio-examples-template
 - [サンプルコード](./examples)
 
-## デバッグについて (準備中)
+## デバッグについて
 
 GDB を使ったデバッグ方法については、[debug](./debug) にまとめています。
 
