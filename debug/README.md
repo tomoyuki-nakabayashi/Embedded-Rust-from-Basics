@@ -85,7 +85,7 @@ Wio Terminalのデバッグ信号は、Wio Terminal内部のボード上のフ�
 | 10ピン 0.5mmピッチ FPCケーブル FFC0510P-65S (65mm, 同一面) | 1個 | aitendo | 480円 | https://www.aitendo.com/product/7614 |
 | 10ピン 0.5mmピッチ FPC変換基板 FCB05-10PC | 1個 | aitendo | 450円 | https://www.aitendo.com/product/7614 |
 | コネクタ付きケーブル 20cm 40P メスメス | 1個 | 秋月電子通商 | 200円 | https://akizukidenshi.com/catalog/g/gC-15868/ |
-| ピンヘッダ L型 2x40 | 1個 (2x5ピンのみ切り離して使用) | 100円 | https://akizukidenshi.com/catalog/g/gC-00148/ |
+| ピンヘッダ L型 2x40 | 1個 (2x5ピンのみ切り離して使用) | 100円 | 秋月電子通商 | https://akizukidenshi.com/catalog/g/gC-00148/ |
 | Seeeduino XIAO | 1個 | 秋月電子通商 | 500円 | https://akizukidenshi.com/catalog/g/gM-15178/ |
 
 Seeeduino XIAOに付属のピンヘッダをSeeeduino XIAOにはんだ付けして、ピンヘッダL型を2x5ピンサイズに切り離してFPC変換基板に半田付けして使います。
