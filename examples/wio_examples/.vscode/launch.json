@@ -14,7 +14,7 @@
             "servertype": "openocd",
             "cwd": "${workspaceRoot}",
             "runToMain": true,
-            "executable": "./target/thumbv7em-none-eabihf/release/examples/8-2-led_and_button",
+            "executable": "./target/thumbv7em-none-eabihf/release/examples/6-2-led_and_button",
             "device": "samd51p19a",
             "configFiles": [
                 "interface/cmsis-dap.cfg",

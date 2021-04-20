@@ -181,29 +181,29 @@ $ sudo apt install gdb-multiarch
 
 ### GDBの動作確認
 
-インストールしたGDBを使って、Wio Terminalにアタッチ出来るかどうか確認します。例として本書のサンプルの `8-2-led_and_button.rs` をデバッグしてみます。
+インストールしたGDBを使って、Wio Terminalにアタッチ出来るかどうか確認します。例として本書のサンプルの `6-2-led_and_button.rs` をデバッグしてみます。
 
 本書のサンプルを展開したディレクトリに移動し、サンプルをビルドします。
 
 ```
-cargo build --example 8-2-led_and_button
+cargo build --example 6-2-led_and_button
 ```
 
-OpenOCDを実行している状態で、GDBにデバッグ対象のバイナリを指定して起動します。今回の場合は、`8-2-led_and_button`をデバッグするので、 `target/thumbv7em-none-abihf/debug/examples/8-2-led_and_button` を指定します。
+OpenOCDを実行している状態で、GDBにデバッグ対象のバイナリを指定して起動します。今回の場合は、`6-2-led_and_button`をデバッグするので、 `target/thumbv7em-none-abihf/debug/examples/6-2-led_and_button` を指定します。
 
 ###### GDB起動(Windowsの場合)
 ```sh
-> arm-none-eabi-gdb target/thumbv7em-none-eabihf/debug/examples/8-2-led_and_button
+> arm-none-eabi-gdb target/thumbv7em-none-eabihf/debug/examples/6-2-led_and_button
 --- 省略 ---
-Reading symbols from target/thumbv7em-none-eabihf/debug/examples/8-2-led_and_button...
+Reading symbols from target/thumbv7em-none-eabihf/debug/examples/6-2-led_and_button...
 (gdb) 
 ```
 
 ###### GDB起動(Ubuntuの場合)
 ```sh
-$ gdb-multiarch target/thumbv7em-none-eabihf/debug/examples/8-2-led_and_button
+$ gdb-multiarch target/thumbv7em-none-eabihf/debug/examples/6-2-led_and_button
 --- 省略 ---
-Reading symbols from target/thumbv7em-none-eabihf/debug/examples/8-2-led_and_button...
+Reading symbols from target/thumbv7em-none-eabihf/debug/examples/6-2-led_and_button...
 (gdb) 
 ```
 起動すると、`(gdb)` のプロンプトが表示されて入力待ちになりますので、`target remote localhost:3333` を入力します。 
@@ -237,13 +237,13 @@ xPSR: 0x01000000 pc: 0x0000056c msp: 0x2000d6a0
 
 ```
 (gdb) break main
-Breakpoint 1 at 0x4a58: file examples/8-2-led_and_button.rs, line 19.
+Breakpoint 1 at 0x4a58: file examples/6-2-led_and_button.rs, line 19.
 Note: automatically using hardware breakpoints for read-only addresses.
 (gdb) continue
 Continuing.
 Note: automatically using hardware breakpoints for read-only addresses.
 
-Breakpoint 1, main () at examples/8-2-led_and_button.rs:19
+Breakpoint 1, main () at examples/6-2-led_and_button.rs:19
 19      #[entry]
 ```
 
@@ -297,7 +297,7 @@ VSCodeのデバッガ連携機能にはブレークポイント設定以外に�
             "servertype": "openocd",
             "cwd": "${workspaceRoot}",
             "runToMain": true,
-            "executable": "./target/thumbv7em-none-eabihf/debug/examples/8-2-led_and_button",
+            "executable": "./target/thumbv7em-none-eabihf/debug/examples/6-2-led_and_button",
             "device": "samd51p19a",
             "configFiles": [
                 "interface/cmsis-dap.cfg",
