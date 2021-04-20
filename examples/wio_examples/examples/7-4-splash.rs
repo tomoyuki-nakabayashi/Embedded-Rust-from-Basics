@@ -3,7 +3,7 @@
 //!
 //! ### 実行方法
 //! ```sh
-//! $ cargo hf2 --example 7-4-splash
+//! $ cargo hf2 --example 7-4-splash --features="splash" --release
 //! ```
 
 #![no_std]
