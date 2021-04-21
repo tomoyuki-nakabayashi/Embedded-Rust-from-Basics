@@ -38,7 +38,7 @@ Wio Terminalのデバッグ信号は、Wio Terminal内部のボード上のフ�
 
 | 名称 | 購入先 | 価格 | リンク | 備考 |
 |:-----|:-----|-----:|:-----|:-----|
-| 10ピン 0.5mmピッチ FPC変換基板 FCB05-10PC | aitendo | 450円 | https://www.aitendo.com/product/7614 | |
+| 10ピン 0.5mmピッチ FPC変換基板 FCB05-10PC | aitendo | 450円 | https://www.aitendo.com/product/18491 | |
 | 10ピン 0.5mm/1.0mmピッチ 両対応変換基板 | Amazon | 550円 | https://www.amazon.co.jp/gp/product/B07H2FTQJM | |
 | 10ピン 0.5mm 変換基板 (L字ピンヘッダ付き) | Amazon | 750円 | https://www.amazon.co.jp/gp/product/B084H9XVND | |
 
@@ -74,7 +74,7 @@ Wio Terminalのデバッグ信号は、Wio Terminal内部のボード上のフ�
 | 機材名 | 必要個数 | 購入先 | 価格 | リンク |
 | --- | --- | --- | --- | --- |
 | 10ピン 0.5mmピッチ FPCケーブル FFC0510P-65S (65mm, 同一面) | 1個 | aitendo | 480円 | https://www.aitendo.com/product/7614 |
-| 10ピン 0.5mmピッチ FPC変換基板 FCB05-10PC | 1個 | aitendo | 450円 | https://www.aitendo.com/product/7614 |
+| 10ピン 0.5mmピッチ FPC変換基板 FCB05-10PC | 1個 | aitendo | 450円 | https://www.aitendo.com/product/18491 |
 | スルーホール用テストワイヤ (10本入り) | 1セット (要4本) | 秋月電子通商 | 240円 | https://akizukidenshi.com/catalog/g/gC-09831/ |
 | Seeeduino XIAO | 1個 | 秋月電子通商 | 500円 | https://akizukidenshi.com/catalog/g/gM-15178/ |
 
@@ -83,9 +83,9 @@ Wio Terminalのデバッグ信号は、Wio Terminal内部のボード上のフ�
 | 機材名 | 必要個数 | 購入先 | 価格 | リンク |
 | --- | --- | --- | --- | --- |
 | 10ピン 0.5mmピッチ FPCケーブル FFC0510P-65S (65mm, 同一面) | 1個 | aitendo | 480円 | https://www.aitendo.com/product/7614 |
-| 10ピン 0.5mmピッチ FPC変換基板 FCB05-10PC | 1個 | aitendo | 450円 | https://www.aitendo.com/product/7614 |
+| 10ピン 0.5mmピッチ FPC変換基板 FCB05-10PC | 1個 | aitendo | 450円 | https://www.aitendo.com/product/18491 |
 | コネクタ付きケーブル 20cm 40P メスメス | 1個 | 秋月電子通商 | 200円 | https://akizukidenshi.com/catalog/g/gC-15868/ |
-| ピンヘッダ L型 2x40 | 1個 (2x5ピンのみ切り離して使用) | 100円 | 秋月電子通商 | https://akizukidenshi.com/catalog/g/gC-00148/ |
+| ピンヘッダ L型 2x40 | 1個 (2x5ピンのみ切り離して使用) | 秋月電子通商 | 100円 | https://akizukidenshi.com/catalog/g/gC-00148/ |
 | Seeeduino XIAO | 1個 | 秋月電子通商 | 500円 | https://akizukidenshi.com/catalog/g/gM-15178/ |
 
 Seeeduino XIAOに付属のピンヘッダをSeeeduino XIAOにはんだ付けして、ピンヘッダL型を2x5ピンサイズに切り離してFPC変換基板に半田付けして使います。
