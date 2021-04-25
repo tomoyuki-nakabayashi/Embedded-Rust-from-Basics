@@ -275,9 +275,14 @@ Cortex-Debug拡張をVSCodeの拡張機能一覧からインストールしま�
 }
 ```
 
-@div:figure
+その後、Cortex-Debug拡張でATSAMD51P19AのSVDファイル (レジスタ定義を記述したファイル) が必要ですので、ワークスペースのルートに `atsamd` リポジトリをクローンしておきます。
+
+```
+$ cd (ワークスペースのルート)
+$ git clone https://github.com/atsamd-rs/atsamd
+```
+
 ![](vscode_debug.png)
-@divend
 
 設定をしたら`F5`を押してデバッグを開始します。Cortex Debugの設定が正しければ、Wio Terminalにプログラムが書き込まれてmain関数の先頭で停止します。この状態で26行目の左側をクリックしてブレークポイントを設定し、再度`F5`を押すと26行目で停止します。
 
