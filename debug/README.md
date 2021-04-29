@@ -28,6 +28,7 @@ Seeeduino XIAO自体は以下の場所から購入出来ます。
 |:-----|:-----|------:|:------|
 | 秋月電子通商 | 750円 | https://akizukidenshi.com/catalog/g/gM-16135/ | |
 | マルツ | 792円 | https://www.marutsu.co.jp/pc/i/2191155/ | |
+| スイッチサイエンス | 759円 | https://www.switch-science.com/catalog/7100/ | |
 
 なお、半田付けが出来る環境であれば、通常の(半田付け済みでない) Seeeduino XIAO自体にピンヘッダが付属しているので、そちらを半田付けして使用できます。
 
