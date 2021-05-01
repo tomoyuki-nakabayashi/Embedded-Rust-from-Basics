@@ -36,3 +36,9 @@ use embedded_graphics_web_simulator::{
 - p.227 ソースコードのタイトル
   - 誤: OneSho
   - 正: OneShot
+- p.283 サンプル実行のコマンド
+  - 誤: cargo hf2 --example hello_lcd
+  - 正: cargo hf2 --example 7-4-hello_lcd
+- p.284 サンプル実行のコマンド
+  - 誤: cargo hf2 --example hello_lcd --release
+  - 正: cargo hf2 --example 7-4-hello_lcd --release
