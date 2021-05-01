@@ -2,6 +2,8 @@
 
 ## 重要な正誤情報
 
+### 第2刷で修正
+
 サンプルコードの実行に支障のある正誤情報です。
 
 - p.286 7-4 Wio TerminalのLCDにHello World!で `can't find crate for std` のビルドエラー
@@ -21,6 +23,33 @@ use embedded_graphics_web_simulator::{
 
 ## 些細な正誤情報
 
+- p.208 第1段落 4行目
+  - 誤: Rustの安全性の補償範囲外であるため
+  - 正: Rustの安全性の保証範囲外であるため
+- p.209 CountDownトレイトを説明するソースコード
+  - 誤: カウントダウンタイマを現すトレイト
+  - 正: カウントダウンタイマを表すトレイト
+- p.214 第2段落 4行目
+  - 誤: Wio Terminalファームウェアを書き込むと
+  - 正: Wio Terminalにファームウェアを書き込むと
+- p.224 第3段落 1行目
+  - 誤: マイコンにはADCが内蔵されているもの多く
+  - 正: マイコンにはADCが内蔵されているものも多く
+- p.226 atsamd/boards/wio_terminal/src/sensors.rsのソースコード解説
+  - 誤: PD1をACD入力として初期化し
+  - 正: PD1をADC入力として初期化し
+- p.232 第2段落 5行目
+  - 誤: I2Cはクロック信号で同期を行う同期式のリアル通信方式です。
+  - 正: I2Cはクロック信号で同期を行う同期式のシリアル通信方式です。
+- p.283 サンプル実行のコマンド
+  - 誤: cargo hf2 --example hello_lcd
+  - 正: cargo hf2 --example 7-4-hello_lcd
+- p.284 サンプル実行のコマンド
+  - 誤: cargo hf2 --example hello_lcd --release
+  - 正: cargo hf2 --example 7-4-hello_lcd --release
+
+### 第2刷で修正
+
 - p.51 第1段落 2行目
   - 誤: 値を変できない
   - 正: 値を変更できない
@@ -36,9 +65,3 @@ use embedded_graphics_web_simulator::{
 - p.227 ソースコードのタイトル
   - 誤: OneSho
   - 正: OneShot
-- p.283 サンプル実行のコマンド
-  - 誤: cargo hf2 --example hello_lcd
-  - 正: cargo hf2 --example 7-4-hello_lcd
-- p.284 サンプル実行のコマンド
-  - 誤: cargo hf2 --example hello_lcd --release
-  - 正: cargo hf2 --example 7-4-hello_lcd --release
