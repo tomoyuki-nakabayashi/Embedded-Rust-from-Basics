@@ -2,9 +2,13 @@
 
 ## 重要な正誤情報
 
-### 第2刷で修正
-
 サンプルコードの実行に支障のある正誤情報です。
+
+- Chapter7 Section02 embedded-graphicsの基礎
+  - M1 Macの場合embedded-graphics-simulatorの実行に以下のRUSTFLAGS指定が必要
+  - `RUSTFLAGS='-L/opt/homebrew/lib/' cargo run`
+
+### 第2刷で修正
 
 - p.286 7-4 Wio TerminalのLCDにHello World!で `can't find crate for std` のビルドエラー
   - 正: `wio_splash/src/lib.rs` の一番上の行に `#![no_std]` を書く
@@ -23,6 +27,9 @@ use embedded_graphics_web_simulator::{
 
 ## 些細な正誤情報
 
+- p.155 図 Wio TerminalのBSPクレート (抜粋)
+  - 誤: usb-serial
+  - 正: usbd-serial
 - p.208 第1段落 4行目
   - 誤: Rustの安全性の補償範囲外であるため
   - 正: Rustの安全性の保証範囲外であるため
