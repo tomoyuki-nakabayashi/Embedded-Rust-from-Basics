@@ -48,6 +48,9 @@ use embedded_graphics_web_simulator::{
 - p.232 第2段落 5行目
   - 誤: I2Cはクロック信号で同期を行う同期式のリアル通信方式です。
   - 正: I2Cはクロック信号で同期を行う同期式のシリアル通信方式です。
+- p.280 サンプルコード中のコメント
+  - 誤: // データの送受信時は、D/Cをhightレベルにする
+  - 正: // データの送受信時は、D/Cをhighレベルにする
 - p.283 サンプル実行のコマンド
   - 誤: cargo hf2 --example hello_lcd
   - 正: cargo hf2 --example 7-4-hello_lcd
